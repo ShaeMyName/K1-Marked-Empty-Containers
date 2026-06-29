@@ -1,0 +1,21 @@
+# Prebuilt binary — build from source instead (see readme.md)
+*.exe
+
+# PyInstaller build artifacts
+build/
+dist/
+*.spec
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# Backups created by the patcher when run against a real game exe
+*.MarkEmpty.bak
+*.bak
+
+# Screenshots live on the mod page, not in the source repo
+*.png
+
+# Distribution archive (built for the mod page, not source)
+*.zip
